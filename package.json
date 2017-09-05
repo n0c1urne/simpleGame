@@ -1,0 +1,26 @@
+{
+  "name": "SimpleGame",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon -w ./ ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "browserify-middleware": "^7.1.0",
+    "bufferutil": "3.0.2",
+    "co": "^4.6.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-ws": "^3.0.0",
+    "morgan": "~1.8.1",
+    "pug": "~2.0.0-beta11",
+    "serve-favicon": "~2.4.2",
+    "utf-8-validate": "3.0.3",
+    "ws": "3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
